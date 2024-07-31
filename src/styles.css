@@ -1,10 +1,10 @@
 body {
   background: #d1f2eb;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .Weather-app {
   background: white;
-  max-width: 800px;
+  max-width: 700px;
   margin: 60px auto;
   padding: 40px;
   padding-bottom: 5px;
@@ -86,16 +86,16 @@ a {
 }
 
 .weather-forecast-date {
-  font-size: 25px;
+  font-size: 20px;
   color: rgba(39, 33, 66, 0.4);
 }
 .weather-forecast-icon {
-  font-size: 33px;
+  font-size: 30px;
 }
 .weather-forecast-values {
-  font-size: 20px;
+  font-size: 15px;
   color: #3fa2f6;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .weather-forecast-values strong {
   color: #2980b9;
