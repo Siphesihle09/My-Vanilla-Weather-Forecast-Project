@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Vanilla-Weather-Search</title>
+</head>
+<body>
+    <div class="Weather-app">
+    <header>
+        <form id="search-form">
+            <input type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+            id="search-input" />
+            <input type="submit"
+            value="Search"
+            class="search-button"/>
+        </form>
+    </header>
+    <main> <div class="current-weather">
+        <div>
+    <h1 class="current-city" id="current-city"> </h1>
+    <p class="current-details"> <span id="present-time"></span>, <span id="description"></span> </br>
+    Humidity:<strong id="humidity"> </strong> Wind: <strong id="wind-speed"> </strong>
+    </p></div>
+<div class="current-temperature">
+    <div id="temperature-icon"></div>
+    <div class="current-temperature-value" id="temperature-value">29</div>
+     <div class="current-temperature-unit">°C</div></div>
+</div>
+</main>
+    <footer> <p>This Project was coded by <a href="https://github.com/Siphesihle09" target="_blank">Siphesihle Mkhwanazi</a> and is open-sourced on <a href="https://github.com/Siphesihle09/Vanilla-Weather-Search" target="_blank"> GitHub </a> hosted on <a href="https://superlative-griffin-8f6639.netlify.app/" target="_blank"> Netlify. </a></p></footer>
+    </div>
+</body>
+<script src="src/index.js"></script>
+</html>
