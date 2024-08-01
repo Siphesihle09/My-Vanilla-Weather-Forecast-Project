@@ -77,20 +77,17 @@ footer {
 a {
   color: #2980b9;
 }
-.weather-forecast {
-  display: flex;
-  justify-content: space-around;
-}
-.weather-forecast-days {
-  text-align: center;
-}
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 15px;
   color: rgba(39, 33, 66, 0.4);
+  text-align: center;
+  line-height: 20px;
 }
 .weather-forecast-icon {
-  font-size: 30px;
+  width: 88px;
+  height: 88px;
+  margin-top: 15px;
 }
 .weather-forecast-values {
   font-size: 15px;
@@ -99,4 +96,9 @@ a {
 }
 .weather-forecast-values strong {
   color: #2980b9;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
 }
