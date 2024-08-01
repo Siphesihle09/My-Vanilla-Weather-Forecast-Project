@@ -1,9 +1,13 @@
 body {
-  background: #d1f2eb;
+  background-image: url("https://cdn.wallpapersafari.com/64/65/WZ95Cg.jpg");
   font-family: "Instrument Serif", serif;
 }
 .Weather-app {
-  background: white;
+  background: linear-gradient(
+    109.5deg,
+    rgb(228, 224, 9) 9.4%,
+    rgb(255, 224, 86) 78.4%
+  );
   max-width: 700px;
   margin: 60px auto;
   padding: 40px;
@@ -23,7 +27,7 @@ body {
   padding: 20px;
   font-size: 16px;
   margin-left: 5px;
-  background-color: #d1f2eb;
+  background-color: #01b7e9;
   border-radius: 5px;
   border: none;
   line-height: 1;
@@ -43,7 +47,7 @@ header {
 }
 p {
   color: rgba(39, 33, 66, 0.4);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -79,7 +83,7 @@ a {
 }
 
 .weather-forecast-date {
-  font-size: 15px;
+  font-size: 19px;
   color: rgba(39, 33, 66, 0.4);
   text-align: center;
   line-height: 20px;
